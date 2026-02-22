@@ -1,0 +1,84 @@
+
+======================================================================
+                    跨场景评估结果汇总
+======================================================================
+场景列表: Curasao, IUI3-RedSea, JapaneseGradens-RedSea, Panama
+消融实验数量: 10
+
+消融实验                       PSNR       SSIM      LPIPS
+-------------------------------------------------------
+360_wo                  26.5612     0.8689     0.1749
+3DGS                    26.5576     0.8620     0.2117
+Mipsplatting            26.4501     0.8630     0.2109
+all                     29.2165     0.9008     0.1263
+depth_wo                28.6956     0.9014     0.1238
+forward_wo              28.7659     0.8983     0.1304
+mipnerf                 24.9260     0.7628     0.3312
+original                28.1161     0.8944     0.1305
+sample_wo               24.9970     0.7821     0.2288
+seathru                 26.4597     0.8140     0.2451
+
+======================================================================
+
+各场景详细指标:
+======================================================================
+
+[360_wo]
+  Curasao: PSNR=27.7906, SSIM=0.8980, LPIPS=0.1638
+  IUI3-RedSea: PSNR=27.7525, SSIM=0.8367, LPIPS=0.2453
+  JapaneseGradens-RedSea: PSNR=22.6836, SSIM=0.8391, LPIPS=0.1728
+  Panama: PSNR=28.0180, SSIM=0.9019, LPIPS=0.1175
+
+[3DGS]
+  Curasao: PSNR=29.8059, SSIM=0.8872, LPIPS=0.2197
+  IUI3-RedSea: PSNR=25.6001, SSIM=0.8397, LPIPS=0.2572
+  JapaneseGradens-RedSea: PSNR=21.7194, SSIM=0.8369, LPIPS=0.1937
+  Panama: PSNR=29.1051, SSIM=0.8840, LPIPS=0.1763
+
+[Mipsplatting]
+  Curasao: PSNR=30.1562, SSIM=0.8950, LPIPS=0.2133
+  IUI3-RedSea: PSNR=24.9393, SSIM=0.8332, LPIPS=0.2608
+  JapaneseGradens-RedSea: PSNR=21.4773, SSIM=0.8394, LPIPS=0.1889
+  Panama: PSNR=29.2277, SSIM=0.8842, LPIPS=0.1807
+
+[all]
+  Curasao: PSNR=31.9289, SSIM=0.9253, LPIPS=0.1187
+  IUI3-RedSea: PSNR=29.0672, SSIM=0.8572, LPIPS=0.1888
+  JapaneseGradens-RedSea: PSNR=24.0850, SSIM=0.8825, LPIPS=0.1213
+  Panama: PSNR=31.7849, SSIM=0.9380, LPIPS=0.0765
+
+[depth_wo]
+  Curasao: PSNR=31.6876, SSIM=0.9304, LPIPS=0.1200
+  IUI3-RedSea: PSNR=28.5242, SSIM=0.8548, LPIPS=0.1854
+  JapaneseGradens-RedSea: PSNR=23.3620, SSIM=0.8830, LPIPS=0.1136
+  Panama: PSNR=31.2088, SSIM=0.9374, LPIPS=0.0760
+
+[forward_wo]
+  Curasao: PSNR=31.6370, SSIM=0.9287, LPIPS=0.1237
+  IUI3-RedSea: PSNR=28.4593, SSIM=0.8565, LPIPS=0.1886
+  JapaneseGradens-RedSea: PSNR=23.1301, SSIM=0.8691, LPIPS=0.1362
+  Panama: PSNR=31.8372, SSIM=0.9387, LPIPS=0.0730
+
+[mipnerf]
+  Curasao: PSNR=25.7771, SSIM=0.8225, LPIPS=0.2813
+  IUI3-RedSea: PSNR=26.0627, SSIM=0.7415, LPIPS=0.3625
+  JapaneseGradens-RedSea: PSNR=21.1887, SSIM=0.7228, LPIPS=0.3664
+  Panama: PSNR=26.6755, SSIM=0.7646, LPIPS=0.3144
+
+[original]
+  Curasao: PSNR=29.3291, SSIM=0.9143, LPIPS=0.1325
+  IUI3-RedSea: PSNR=28.2579, SSIM=0.8510, LPIPS=0.1908
+  JapaneseGradens-RedSea: PSNR=23.7481, SSIM=0.8796, LPIPS=0.1168
+  Panama: PSNR=31.1294, SSIM=0.9329, LPIPS=0.0817
+
+[sample_wo]
+  Curasao: PSNR=29.1363, SSIM=0.9077, LPIPS=0.1480
+  IUI3-RedSea: PSNR=16.8809, SSIM=0.4601, LPIPS=0.4952
+  JapaneseGradens-RedSea: PSNR=22.7077, SSIM=0.8324, LPIPS=0.1803
+  Panama: PSNR=31.2629, SSIM=0.9284, LPIPS=0.0916
+
+[seathru]
+  Curasao: PSNR=30.1434, SSIM=0.8703, LPIPS=0.2137
+  IUI3-RedSea: PSNR=25.8634, SSIM=0.7901, LPIPS=0.2918
+  JapaneseGradens-RedSea: PSNR=22.0507, SSIM=0.7667, LPIPS=0.2495
+  Panama: PSNR=27.7814, SSIM=0.8289, LPIPS=0.2254

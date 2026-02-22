@@ -1,0 +1,5 @@
+# ninja log v5
+1	27219	1701926218240907553	/mnt/nfs/data/home/1120231527/project/python/zipnerf-pytorch/gridencoder/build/temp.linux-x86_64-cpython-39/mnt/nfs/data/home/1120231527/project/python/zipnerf-pytorch/gridencoder/src/bindings.o	ebd7c6cf75f084a3
+1	126648	1701926317652907415	/mnt/nfs/data/home/1120231527/project/python/zipnerf-pytorch/gridencoder/build/temp.linux-x86_64-cpython-39/mnt/nfs/data/home/1120231527/project/python/zipnerf-pytorch/gridencoder/src/gridencoder.o	90b4317348792b34
+0	26737	1701940123296807363	/home/gpu/LTY/zipnerf-pytorch/gridencoder/build/temp.linux-x86_64-cpython-39/home/gpu/LTY/zipnerf-pytorch/gridencoder/src/bindings.o	7bc9fed5871b06bb
+0	120444	1701940215008422347	/home/gpu/LTY/zipnerf-pytorch/gridencoder/build/temp.linux-x86_64-cpython-39/home/gpu/LTY/zipnerf-pytorch/gridencoder/src/gridencoder.o	3f30be3d98291a62

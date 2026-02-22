@@ -1,0 +1,3 @@
+method,PSNR,SSIM,LPIPS,image_count
+seaout,19.080855,0.715636,0.259147,1
+seathru,19.142623,0.706215,0.311332,1

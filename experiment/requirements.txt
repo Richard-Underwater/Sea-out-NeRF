@@ -1,0 +1,9 @@
+# 图像质量评估所需依赖
+numpy
+pandas
+Pillow
+scikit-image
+torch
+torchvision
+lpips
+tqdm
